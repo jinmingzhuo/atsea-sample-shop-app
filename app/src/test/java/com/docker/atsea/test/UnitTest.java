@@ -98,5 +98,10 @@ public class UnitTest {
 		Mockito.when(mockOrderServiceImpl.findById(1l)).thenReturn(referenceOrder);
 		Assert.assertNotEquals(mockOrder, referenceOrder);
 	}
+
+	@Test
+	public void test() {
+		System.out.println("test");
+	}
 	
 }
